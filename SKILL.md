@@ -69,8 +69,7 @@ com.{packagename}
 │   │   └── facade
 │   └── infrastructure
 │       ├── persistence
-│       ├── acl
-│       └── messaging   # EventBus address + codec
+│       └── acl
 └── MainLauncher.java
 ```
 
@@ -91,6 +90,7 @@ com.{packagename}
 - Reuse one generic codec template: `snippets/java/LocalRefMessageCodec.java`.
 - Reuse one batch registrar template: `snippets/java/EventBusCodecRegistrar.java`.
 - Register codecs centrally during bootstrap (`MainLauncher`).
+- No mandatory dedicated `messaging` package when using global default codec registration.
 - Local optimization mode:
   - use `setLocalOnly(true)`;
   - `transform(T body)` returns `body` directly (reference passing, no clone);
