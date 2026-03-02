@@ -1,6 +1,6 @@
-package com.yepian.application;
+package com.packagename.application;
 
-import com.yepian.blackboard.domain.repository.BlackboardRepository;
+import com.packagename.blackboard.domain.repository.BlackboardRepository;
 import io.reactivex.rxjava3.core.Single;
 
 public class BlackboardService {

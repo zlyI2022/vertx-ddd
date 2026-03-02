@@ -1,6 +1,6 @@
-package com.yepian.api;
+package com.packagename.api;
 
-import com.yepian.application.BlackboardService;
+import com.packagename.application.BlackboardService;
 import io.vertx.rxjava3.core.AbstractVerticle;
 import io.vertx.rxjava3.ext.web.Router;
 import io.vertx.rxjava3.ext.web.RoutingContext;

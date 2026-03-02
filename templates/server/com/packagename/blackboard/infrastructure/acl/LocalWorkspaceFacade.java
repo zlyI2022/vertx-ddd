@@ -1,6 +1,6 @@
-package com.yepian.blackboard.infrastructure.acl;
+package com.packagename.blackboard.infrastructure.acl;
 
-import com.yepian.blackboard.domain.facade.WorkspaceFacade;
+import com.packagename.blackboard.domain.facade.WorkspaceFacade;
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Single;
 import io.vertx.rxjava3.core.Vertx;

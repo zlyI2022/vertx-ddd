@@ -1,6 +1,7 @@
 ---
 name: vertx-ddd-rxjava3-pgpool
 description: Vert.x 4 + RxJava3 reactive + DDD layered structure + Maven + PgPool(Postgres) + Flyway + Lombok + Log4j2, with strict non-blocking rules and Chinese-only logs/comments.
+version: v1.0.1
 license: Proprietary
 ---
 
@@ -113,7 +114,8 @@ com.{packagename}
 
 ## Templates and Snippets
 - `templates/server/` provides a minimal DDD skeleton.
-- `templates/server/com/yepian/MainLauncher.java` is pre-wired with `IoTransportDetector` for `io_uring -> epoll -> nio` startup detection.
+- `templates/server/com/packagename/MainLauncher.java` is pre-wired with `IoTransportDetector` for `io_uring -> epoll -> nio` startup detection.
+- `com.packagename` is a placeholder base package in templates; replace it with your real package before first compile.
 - `snippets/flyway/` provides extension + schema stubs.
 - `snippets/java/PgPoolTx.java` provides RxJava3 PgPool transaction template.
 - `snippets/java/IoTransportDetector.java` provides runtime I/O detection template (`io_uring -> epoll -> nio`).

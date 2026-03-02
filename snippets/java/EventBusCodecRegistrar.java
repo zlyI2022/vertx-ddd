@@ -1,4 +1,4 @@
-package com.yepian.snippets;
+package com.packagename.snippets;
 
 import io.vertx.core.eventbus.EventBus;
 import java.util.Arrays;

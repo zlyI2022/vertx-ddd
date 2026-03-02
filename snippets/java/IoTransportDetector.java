@@ -1,4 +1,4 @@
-package com.yepian.snippets;
+package com.packagename.snippets;
 
 import io.vertx.core.VertxOptions;
 import java.lang.reflect.Method;

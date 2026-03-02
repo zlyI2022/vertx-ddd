@@ -1,9 +1,9 @@
-package com.yepian;
+package com.packagename;
 
-import com.yepian.api.RestVerticle;
-import com.yepian.application.BlackboardService;
-import com.yepian.blackboard.domain.repository.BlackboardRepository;
-import com.yepian.blackboard.infrastructure.persistence.PgBlackboardRepository;
+import com.packagename.api.RestVerticle;
+import com.packagename.application.BlackboardService;
+import com.packagename.blackboard.domain.repository.BlackboardRepository;
+import com.packagename.blackboard.infrastructure.persistence.PgBlackboardRepository;
 import io.vertx.rxjava3.core.Vertx;
 import lombok.extern.slf4j.Slf4j;
 import org.flywaydb.core.Flyway;

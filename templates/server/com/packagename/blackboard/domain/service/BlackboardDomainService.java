@@ -1,6 +1,6 @@
-package com.yepian.blackboard.domain.service;
+package com.packagename.blackboard.domain.service;
 
-import com.yepian.blackboard.domain.model.Blackboard;
+import com.packagename.blackboard.domain.model.Blackboard;
 
 public class BlackboardDomainService {
     public boolean validateHeadings(Blackboard blackboard) {

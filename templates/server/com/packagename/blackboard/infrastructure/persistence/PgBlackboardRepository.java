@@ -1,7 +1,7 @@
-package com.yepian.blackboard.infrastructure.persistence;
+package com.packagename.blackboard.infrastructure.persistence;
 
-import com.yepian.blackboard.domain.model.Blackboard;
-import com.yepian.blackboard.domain.repository.BlackboardRepository;
+import com.packagename.blackboard.domain.model.Blackboard;
+import com.packagename.blackboard.domain.repository.BlackboardRepository;
 import io.reactivex.rxjava3.core.Single;
 import io.vertx.rxjava3.core.Vertx;
 import io.vertx.rxjava3.pgclient.PgPool;

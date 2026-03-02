@@ -1,4 +1,4 @@
-package com.yepian.snippets;
+package com.packagename.snippets;
 
 import io.reactivex.rxjava3.core.Single;
 import io.vertx.rxjava3.pgclient.PgPool;

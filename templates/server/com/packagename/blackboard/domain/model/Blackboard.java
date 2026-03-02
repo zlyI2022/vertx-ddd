@@ -1,4 +1,4 @@
-package com.yepian.blackboard.domain.model;
+package com.packagename.blackboard.domain.model;
 
 import lombok.Data;
 
